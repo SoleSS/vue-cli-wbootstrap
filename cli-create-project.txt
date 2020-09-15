@@ -1,0 +1,17 @@
+sudo npm install -g @vue/cli
+vue create <new_project>
+vue add vuex
+vue add router
+npm install bootstrap@4.5.2 popper.js
+npm install portal-vue
+    Add it to your main.js:
+        import PortalVue from 'portal-vue'
+        Vue.use(PortalVue)
+        
+npm install bootstrap-vue
+    Add it to your main.js:
+        import BootstrapVue from "bootstrap-vue"
+        import "bootstrap/dist/css/bootstrap.min.css"
+        import "bootstrap-vue/dist/bootstrap-vue.css"
+
+        Vue.use(BootstrapVue)
